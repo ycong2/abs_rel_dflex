@@ -53,4 +53,16 @@ li:hover .globalbox{
     display: block;
     /* 인라인태그 a라서 위아래 스타일 안먹혀 */
     padding-bottom: 10px;
+    font-size: 1.5em;
+}
+.globala i:nth-child(2), /*아시아지구 원래 안보임*/
+li:hover i:nth-child(1)  /*망사지구 사라짐*/
+{
+    display:none;
+}
+li:hover i:nth-child(2), /*마우스가 올라가면 아시아지구나타남*/
+.globala i:nth-child(1) /* 망사지구보임*/
+{
+    
+    display: block;
 }
