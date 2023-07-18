@@ -55,14 +55,8 @@ li:hover .globalbox{
     padding-bottom: 10px;
     font-size: 1.5em;
 }
-.globala i:nth-child(2), /*아시아지구 원래 안보임*/
-li:hover i:nth-child(1)  /*망사지구 사라짐*/
+
+li:hover .globala i:before
 {
-    display:none;
-}
-li:hover i:nth-child(2), /*마우스가 올라가면 아시아지구나타남*/
-.globala i:nth-child(1) /* 망사지구보임*/
-{
-    
-    display: block;
+   content: "\F883";
 }
